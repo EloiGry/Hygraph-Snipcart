@@ -13,7 +13,7 @@ const Footer = ({navBar}) => {
                     <h5 className='uppercase pb-[10px] text-center'> Shop </h5>
                     {navBar.categories.map(e => {
                         return (
-                            <Link href={e.slug} key={e.id}><a className='hover:text-blue'>{e.name}</a></Link>
+                            <Link href={`/categories/${e.slug}`} key={e.id}><a className='hover:text-blue'>{e.name}</a></Link>
                         )
                     })}
                 </div>
@@ -28,7 +28,7 @@ const Footer = ({navBar}) => {
                 </div>
                 <div className='flex flex-col'>
                     <h5 className='uppercase pb-[10px] text-center'> Contact </h5>
-                    <Link href='contact'><a className='p-2 hover:text-blue flex'> <p className="px-1">Nous Contacter</p>  <IoIosArrowDropright size={25}/></a></Link>
+                    <Link href='/contact'><a className='p-2 hover:text-blue flex'> <p className="px-1">Nous Contacter</p>  <IoIosArrowDropright size={25}/></a></Link>
                 </div>
             </div>
         </div>

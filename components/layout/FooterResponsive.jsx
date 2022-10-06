@@ -63,7 +63,7 @@ export default function FooterResponsive({navBar}) {
                   />
                 </Disclosure.Button>
                 <Disclosure.Panel className="px-4 pt-4 pb-2 text-sm text-gray-500">
-                    <Link href='contact'><a className='p-2 hover:text-blue flex'> <p className="px-1">Nous Contacter</p>  <IoIosArrowDropright size={25}/></a></Link>
+                    <Link href='/contact'><a className='p-2 hover:text-blue flex'> <p className="px-1">Nous Contacter</p>  <IoIosArrowDropright size={25}/></a></Link>
                 </Disclosure.Panel>
               </>
             )}
