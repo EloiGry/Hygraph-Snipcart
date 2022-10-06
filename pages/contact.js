@@ -13,6 +13,7 @@ import NavBar from "../components/layout/NavBar";
 import client from "../apollo.client";
 import { NAVIGATION } from "../queries/navigation";
 import Footer from "../components/layout/Footer";
+import Head from "next/head";
 
 function ContactPage({navBar}) {
   return (

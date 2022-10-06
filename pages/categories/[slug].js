@@ -4,6 +4,7 @@ import client from "../../apollo.client";
 import ProductsList from "../../components/ProductsList";
 import Navbar from "../../components/layout/NavBar";
 import Footer from "../../components/layout/Footer";
+import Head from "next/head";
 
 const Category = ({category, navBar}) => {
     return (
