@@ -21,10 +21,12 @@ query GET_CATEGORIES {
           brands {
             name
             id
+            slug
           }
           categories {
             name
             id
+            slug
           }
           images {
             ... on NavImage {

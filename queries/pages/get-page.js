@@ -13,6 +13,7 @@ query GET_PAGE_BY_SLUG ($slug: String) {
         brands {
           name
           id
+          slug
         }
         categories {
           name
